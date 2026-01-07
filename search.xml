@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>github网站注册</title>
+      <link href="/posts/224d.html"/>
+      <url>/posts/224d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="网站注册"><a href="#网站注册" class="headerlink" title="网站注册"></a>网站注册</h1><h2 id="搜索网站-github"><a href="#搜索网站-github" class="headerlink" title="搜索网站(github)"></a>搜索网站(github)</h2><h4 id="进入网站之后，都是英文，如果英文不太好的话，可以下载一个翻译"><a href="#进入网站之后，都是英文，如果英文不太好的话，可以下载一个翻译" class="headerlink" title="进入网站之后，都是英文，如果英文不太好的话，可以下载一个翻译"></a>进入网站之后，都是英文，如果英文不太好的话，可以下载一个翻译</h4><p>1.Microsoft浏览器顶部有一个扩展，点击会出现一个“获取Microsoft Edge扩展”</p><p>2.搜索翻译，可以下载“沉浸式翻译-网页翻译插件&#x2F;PDF翻译&#x2F;免费”，然后就可以把英文转化为中文，以便使用</p><h3 id="开始注册"><a href="#开始注册" class="headerlink" title="开始注册"></a>开始注册</h3><h4 id="注：需要一个自己的邮箱，QQ邮箱不可以"><a href="#注：需要一个自己的邮箱，QQ邮箱不可以" class="headerlink" title="注：需要一个自己的邮箱，QQ邮箱不可以"></a>注：需要一个自己的邮箱，QQ邮箱不可以</h4><p>1.点击sign up，进行注册，依次输入邮箱账号、密码、用户名，根据要求填写满足格式即可。当这三个都出现”√”时，即可以进行下一步</p><p>2.界面跳转至验证，然后完成验证后，会给你的邮箱发一个验证码，你需要将邮箱的验证码填到这里。</p><p>3.完成注册之后，点击sign in，完成登陆即可</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo博客主题安装</title>
+      <link href="/posts/4963.html"/>
+      <url>/posts/4963.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h1><h2 id="搭建-Hexo-博客"><a href="#搭建-Hexo-博客" class="headerlink" title="搭建 Hexo 博客"></a>搭建 Hexo 博客</h2><h2 id="主题安装-1"><a href="#主题安装-1" class="headerlink" title="主题安装"></a>主题安装</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">温馨提示</span><br><span class="line">Anzhiyu主题拥有Main(稳定版)和Dev(测试版)两种版本, 我们推荐您安装使用Github(稳定版)</span><br></pre></td></tr></table></figure><h4 id="方式一-Github-推荐"><a href="#方式一-Github-推荐" class="headerlink" title="方式一(Github 推荐):"></a>方式一(Github 推荐):</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu</span><br></pre></td></tr></table></figure><h4 id="如遇安装不上可以使用以下url代理安装"><a href="#如遇安装不上可以使用以下url代理安装" class="headerlink" title="如遇安装不上可以使用以下url代理安装"></a>如遇安装不上可以使用以下url代理安装</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b main https://ghproxy.com/https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu</span><br></pre></td></tr></table></figure><h4 id="方式二-Release-推荐"><a href="#方式二-Release-推荐" class="headerlink" title="方式二(Release 推荐):"></a>方式二(Release 推荐):</h4><p>下载 最新 release 版本 解压到 themes 目录，并将解压出的文件夹重命名为 anzhiyu。</p><h4 id="方式三-npm安装"><a href="#方式三-npm安装" class="headerlink" title="方式三(npm安装):"></a>方式三(npm安装):</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-theme-anzhiyu</span><br></pre></td></tr></table></figure><p>此方法只支持 Hexo 5.0.0 以上版本 通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成</p><h4 id="测试版Dev"><a href="#测试版Dev" class="headerlink" title="测试版Dev"></a>测试版Dev</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b dev https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu</span><br></pre></td></tr></table></figure><p>测试版可能存在 bug，追求稳定的请安装稳定版</p><h2 id="应用主题"><a href="#应用主题" class="headerlink" title="应用主题"></a>应用主题</h2><p>打开 Hexo 根目录下的 config.yml, 找到以下配置项，把主题改为anzhiyu</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: anzhiyu</span><br></pre></td></tr></table></figure><h2 id="安装-pug-和-stylus-渲染插件"><a href="#安装-pug-和-stylus-渲染插件" class="headerlink" title="安装 pug 和 stylus 渲染插件"></a>安装 pug 和 stylus 渲染插件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><p>无法安装可以使用cnpm进行安装</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save --registry=http://registry.npmmirror</span><br></pre></td></tr></table></figure><h2 id="本地启动-hexo"><a href="#本地启动-hexo" class="headerlink" title="本地启动 hexo"></a>本地启动 hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>此时就能在看到效果了。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo增添公告栏计时器小部件</title>
       <link href="/posts/fd28.html"/>
       <url>/posts/fd28.html</url>
